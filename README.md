@@ -1,0 +1,3 @@
+# controleEstoqueEI
+
+Simples software para controle de estoques...
