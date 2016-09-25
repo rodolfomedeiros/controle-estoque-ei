@@ -10,7 +10,7 @@ public class ConnectionFactory {
     
     public Connection getConnection(){
         try {
-            return DriverManager.getConnection("jdbc:mysql://localhost/ControleEstoqueEI","root","semnick01");
+            return DriverManager.getConnection("jdbc:mysql://localhost/ControleEstoqueEI","root","");
         } catch (SQLException e) {
             throw new ConnectionFactoryException();
         }
